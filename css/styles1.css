@@ -39,6 +39,7 @@
     right: 30px;
     background: #57a7e9;
     color: #fff;
+    border-radius: 50px;
 }
 .Foto{
     text-align: center;
@@ -46,6 +47,10 @@
     height: 250px;
     border: 0;
     justify-content: center;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0, 3);
     }
 .div__img-logo {
     padding: 20px;
@@ -76,8 +81,9 @@
     display: flex;
     justify-content: center;
 }
-.nav-div__img-perfil {
-    
+
+body {
+    text-align: justify;
 }
 .Contacto {
     width: 100;
@@ -119,4 +125,17 @@
     font-size: 30px;
     box-shadow: 0px 1px rgba(0, 0, 0, 0, 3);
     z-index: 100;
+}
+
+.Nota {
+    border-radius: 50px;
+    text-align: center;
+    background: #84d9fa;
+    font-size: 30px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0, 3);
+    z-index: 100;
+}
+.Creador{
+background: #57a7e9;
+
 }
